@@ -1,7 +1,7 @@
 
 /**
  *
- * @author jaz
+ * @author blasphemeous
  */
 
 package projects; 
