@@ -10,7 +10,7 @@ import java.io.IOException;
 
 /**
  *
- * @author jazfer
+ * @author @blasphemeous
  */
 public class Information {
     String firstName, middleName, lastName; 
