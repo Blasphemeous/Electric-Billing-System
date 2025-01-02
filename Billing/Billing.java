@@ -17,9 +17,9 @@ import java.nio.file.Path;
 import java.util.*; 
 public class Billing {
     
-    private static final String BILLING_FILE_PATH = "C:\\Users\\\\padil\\Documents\\NetBeansProjects\\projects\\src\\projects\\BillingReceipt.txt";
-    private static final String CUSTOMER_FILE_PATH = "C:\\Users\\\\padil\\Documents\\NetBeansProjects\\projects\\src\\projects\\PaymentReceipt.txt";
-    private static final String REGISTER_FILE_PATH = "C:\\Users\\\\padil\\Documents\\NetBeansProjects\\projects\\src\\projects\\RegisteredCustomer.txt"; 
+    private static final String BILLING_FILE_PATH = ""; //Declare the file path
+    private static final String CUSTOMER_FILE_PATH = ""; //Declare the file path
+    private static final String REGISTER_FILE_PATH = "";  //Declare the file path
     public static void main(String[]args){
         clear(); 
         gotoxy(10,40);
@@ -574,7 +574,7 @@ public class Billing {
         String sanitizedDate = date.replaceAll("[^a-zA-Z0-9]", "-");
         String filename = String.format("\\Payment_Receipt_%s_%s.csv", id, sanitizedDate); 
         String receipt = String.format("%s", record); 
-        String directory = "C:\\Users\\padil\\Documents\\Payment Receipt";
+        String directory = ""; //Declare the file path
         String filePath = directory + filename; 
        
         
@@ -649,7 +649,7 @@ public class Billing {
         String sanitizedDate = date.replaceAll("[^a-zA-Z0-9]", "-");
         String filename = String.format("\\BILL_%s_%s.csv", id, sanitizedDate); 
         String receipt = String.format("%s", record); 
-        String directory = "C:\\Users\\padil\\Documents\\Billing Receipt";
+        String directory = ""; //Declare the file path
         String filePath = directory + filename; 
        
         
