@@ -13,7 +13,7 @@ public class Information {
     String firstName, middleName, lastName; 
     String address; 
     String id; 
-    private static final String REGISTER_FILE_PATH = "C:\\Users\\\\padil\\Documents\\NetBeansProjects\\projects\\src\\projects\\RegisteredCustomer.txt"; 
+    private static final String REGISTER_FILE_PATH = "RegisteredCustomer.txt"; //Declare the file path
     void Registration(String firstName, 
                       String middleName, 
                       String lastName, 
